@@ -1,0 +1,6 @@
+Check thermal protection works
+Finalize bed dimensions, s/w endstops, etc
+Adjust ref voltage on steppers
+Adjust retraction settings in firmware? 
+Set speed & accelertaion limits
+Allow Z height adjustments during printing

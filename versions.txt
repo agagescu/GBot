@@ -1,0 +1,5 @@
+v0.0.1 - Original working config for RAMPS1.4 D-Bot wired as per original author's diagram
+v0.0.2 - PID values updated & tuning hotend
+v0.0.3 - Adjusted steps/mm for all steppers
+v0.0.4 - PIDTEMPBED enabled & PID values updated
+v0.0.5 - #define Z_DUAL_STEPPER_DRIVERS enabled
