@@ -427,7 +427,7 @@
 
 #if ENABLED(PIDTEMPBED)
 
-  #define PID_BED_DEBUG // Sends debug data to the serial port.
+  //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
 
   #define DEFAULT_bedKp 116.99
