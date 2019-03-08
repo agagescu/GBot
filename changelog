@@ -3,4 +3,4 @@ v0.0.2 - PID values updated & tuning hotend
 v0.0.3 - Adjusted steps/mm for all steppers
 v0.0.4 - PIDTEMPBED enabled & PID values updated
 v0.0.5 - #define Z_DUAL_STEPPER_DRIVERS enabled
-v0.0.6 - #define REVERSE_MENU_DIRECTION - switched direction of menus
+v0.0.6 - #define REVERSE_ENCODER_DIRECTION - switched direction of encoder
