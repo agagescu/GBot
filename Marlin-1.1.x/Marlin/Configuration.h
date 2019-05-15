@@ -1496,12 +1496,8 @@
 //  If CLOCKWISE normally moves DOWN this makes it go UP.
 //  If CLOCKWISE normally moves UP this makes it go DOWN.
 //
-<<<<<<< HEAD
+
 #define REVERSE_MENU_DIRECTION
-#define REVERSE_MENU_DIRECTION
-=======
-//#define REVERSE_MENU_DIRECTION
->>>>>>> 5feef378afce5fe59372a853fe0b8535b61da789
 
 //
 // Individual Axis Homing
