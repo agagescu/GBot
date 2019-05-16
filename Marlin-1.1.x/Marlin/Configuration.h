@@ -885,7 +885,7 @@
 
 // The size of the print bed
 #define X_BED_SIZE 250
-#define Y_BED_SIZE 300
+#define Y_BED_SIZE 280
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -1497,7 +1497,7 @@
 //  If CLOCKWISE normally moves UP this makes it go DOWN.
 //
 
-#define REVERSE_MENU_DIRECTION
+//#define REVERSE_MENU_DIRECTION
 
 //
 // Individual Axis Homing
