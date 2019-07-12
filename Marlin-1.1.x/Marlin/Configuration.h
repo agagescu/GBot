@@ -136,7 +136,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "ALEX - v0.0.6"
+#define CUSTOM_MACHINE_NAME "ALEX - v0.0.7"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -379,10 +379,16 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Ultimaker
-  #define DEFAULT_Kp 33.10 // 39.54
-  #define DEFAULT_Ki 3.34 // 4.43
-  #define DEFAULT_Kd 82.02 //88.26
+// DBot (Auto PID tune settings with fan @ 100%)  
+    #define DEFAULT_Kp 47.19
+    #define DEFAULT_Ki 5.05
+    #define DEFAULT_Kd 110.17
+
+
+// Ultimaker
+  //#define DEFAULT_Kp 33.10 // 39.54
+  //#define DEFAULT_Ki 3.34 // 4.43
+  //#define DEFAULT_Kd 82.02 //88.26
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1228,7 +1234,7 @@
 // M501 - reads parameters from EEPROM (if you need reset them after you changed them temporarily).
 // M502 - reverts to the default "factory settings".  You still need to store them in EEPROM afterwards if you want to.
 //
-//#define EEPROM_SETTINGS // Enable for M500 and M501 commands
+#define EEPROM_SETTINGS // Enable for M500 and M501 commands
 //#define DISABLE_M503    // Saves ~2700 bytes of PROGMEM. Disable for release!
 #define EEPROM_CHITCHAT   // Give feedback on EEPROM commands. Disable to save PROGMEM.
 
